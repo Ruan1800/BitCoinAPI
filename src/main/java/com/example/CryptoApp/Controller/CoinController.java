@@ -54,7 +54,7 @@ public class CoinController {
            }
         }
 
-
+          /*logica para a api de deletargi*/
         @DeleteMapping("/{id}")
         public ResponseEntity delete(@PathVariable int id) {
             boolean response = false;
